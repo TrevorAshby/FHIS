@@ -1,0 +1,44 @@
+.main {
+    background-color: rgb(44, 43, 43);
+    width: 100%;
+    height: 100%;
+}
+
+.window-title {
+    background-color: aliceblue !important;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 1px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+.window-title h3 {
+    padding: 5px;
+    margin: 0px;
+}
+
+.window-body {
+    background-color: aliceblue !important;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.window-row {
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+.window-col {
+    border: 1px solid blue;
+}
+
+.window-col hr {
+    width: 90%;
+    margin-left: 0;
+}
